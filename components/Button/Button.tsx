@@ -3,7 +3,7 @@ import classNames from 'classnames'
 
 type ButtonProps = {
   children: React.ReactNode
-  type?: 'default' | 'secondary' | 'third'
+  type?: 'default' | 'secondary'
   size?: 'sm' | 'md' | 'lg' | 'xs'
   onClick?: React.MouseEventHandler
 }
